@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto; /* quita los margenes que vienen por defecto*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+body {
+    background-image: url("../img/bg-2.png");
+}
+
+.login{
+    width: 1140px;
+}
+
+/* HEADER */
+.login header{
+    background-color: orangered;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.login header img{
+    float: left;
+}
+
+.login header ul.lista1{
+    float: left;
+    padding: 10px;
+}
+
+.login header ul.lista2{
+    float: right;
+    padding: 10px;
+}
+
+.login header li{
+    padding: 10px;
+}
+
+
+/* MAIN */
+.login main{
+    width: 350px;
+}
+
+.login main h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 55px;
+}
+
+.login main label{
+    text-transform: capitalize;
+    font-weight: bold;    
+}
+
+.login main .recordar{
+    text-transform: capitalize;
+    float: right;
+    font-weight: bold;
+}
+
+.login main .campos{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 30px;
+}
+
+.login main .error{
+    margin: 30px 0px 20px 0px;
+    color: red;
+}
+
+.login main button{
+    border-radius: 6px;
+    border: royalblue;
+    color: white;
+    background-color: royalblue;
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+}

@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto; /* quita los margenes que vienen por defecto*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registro li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+}
+
+.registro a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+body {
+    background-image: url("../img/bg-2.png");
+}
+
+.registro{
+    width: 1140px;
+}
+
+/* HEADER */
+.registro header{
+    background-color: orangered;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.registro header img{
+    float: left;
+}
+
+.registro header ul.lista1{
+    float: left;
+    padding: 10px;
+}
+
+.registro header ul.lista2{
+    float: right;
+    padding: 10px;
+}
+
+.registro header li{
+    padding: 10px;
+}
+
+/* MAIN */
+.registro main{
+    width: 350px;
+}
+
+.registro main h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.registro main h3{
+    margin: 15px 0px 15px 0px;
+}
+
+.registro main select{
+    width: 160px;
+    height: 20px;
+}
+
+.registro main .campos{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 30px;
+}
+
+.registro main .error{
+    color: red;
+    margin-bottom: 20px;
+}
+
+.registro main .botones{
+    border-radius: 6px;
+    border: royalblue;
+    color: white;
+    background-color: royalblue;
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.terminos{
+    margin: 15px 0px 15px 0px;
+}
